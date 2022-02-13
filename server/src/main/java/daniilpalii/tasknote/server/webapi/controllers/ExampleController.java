@@ -1,4 +1,4 @@
-package daniilpalii.tasknote.web.controllers;
+package daniilpalii.tasknote.server.webapi.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ExampleController {
 
-    @GetMapping("/")
-    public String index() {
+    @GetMapping("/api/greeting")
+    public String sayHello() {
         return "Greetings from Spring Boot!";
     }
 

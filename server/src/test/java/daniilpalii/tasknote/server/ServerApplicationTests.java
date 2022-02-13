@@ -1,13 +1,13 @@
-package daniilpalii.tasknote;
+package daniilpalii.tasknote.server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskNoteApplicationTests {
+class ServerApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

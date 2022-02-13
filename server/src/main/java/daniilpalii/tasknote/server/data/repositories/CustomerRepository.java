@@ -1,8 +1,9 @@
-package daniilpalii.tasknote.data.repositories;
+package daniilpalii.tasknote.server.data.repositories;
+
+import daniilpalii.tasknote.server.data.entities.Customer;
+import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
-import daniilpalii.tasknote.data.entities.Customer;
-import org.springframework.data.repository.CrudRepository;
 
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
 

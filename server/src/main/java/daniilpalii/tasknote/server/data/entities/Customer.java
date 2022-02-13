@@ -1,4 +1,4 @@
-package daniilpalii.tasknote.data.entities;
+package daniilpalii.tasknote.server.data.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
