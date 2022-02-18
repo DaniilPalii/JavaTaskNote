@@ -5,9 +5,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface CustomerRepository extends CrudRepository<Customer, Long> {
-
-    List<Customer> findByLastName(String lastName);
-
-    Customer findById(long id);
+public interface CustomerRepository extends CrudRepository<Task, Long> {
+    List<Task> findByLastName(String lastName);
+    Task findById(long id);
 }
